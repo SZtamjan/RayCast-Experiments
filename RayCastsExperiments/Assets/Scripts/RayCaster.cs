@@ -12,7 +12,7 @@ public class RayCaster : MonoBehaviour
     private void Update()
     {
         Vector3 cursorPos = Input.mousePosition;
-        cursorPos.z += 10f;
+        //cursorPos.z += 10f;
         // debugerO.transform.position = cursorPos;
         // Vector3 target = cam.ScreenToWorldPoint(cursorPos);
         // debugerT.transform.position = target;
